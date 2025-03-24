@@ -8,7 +8,7 @@
 
 > `const` **rtrim**: (`str`) => `string` = `chop`
 
-Defined in: stringtools.ts:276
+Defined in: [stringtools.ts:282](https://github.com/opsimathically/stringtools/blob/8553a0fba449ff4067d02e836a6aaae8b3b70c57/src/stringtools.ts#L282)
 
 ## Parameters
 

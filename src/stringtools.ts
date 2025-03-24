@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-empty */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-debugger */
@@ -16,7 +17,12 @@ import assert from 'node:assert';
 // used for the purposes of identifying ana analyzing untrusted/unknown string content
 // and providing basic categorization of the content.
 
-const isString = function (str: string) {
+/**
+ * Check if a value is a string at runtime.
+ * @param str
+ * @returns
+ */
+const isString = function (str: any) {
   if (typeof str === 'string') return true;
   return false;
 };

@@ -8,13 +8,15 @@
 
 > **isString**(`str`): `boolean`
 
-Defined in: stringtools.ts:19
+Defined in: [stringtools.ts:25](https://github.com/opsimathically/stringtools/blob/8553a0fba449ff4067d02e836a6aaae8b3b70c57/src/stringtools.ts#L25)
+
+Check if a value is a string at runtime.
 
 ## Parameters
 
 ### str
 
-`string`
+`any`
 
 ## Returns
 
