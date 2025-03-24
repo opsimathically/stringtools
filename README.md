@@ -1,13 +1,15 @@
-# safejsonparse
+# stringtools
 
-This utility will attempt to parse json, and then run a secondary sanitizer to
-detect and throw an error on encountering keys with potential prototype polluion, or invalid
-value types.
+These tools have been cannibalized from a number of my internal projects and consolidated
+here. All functions exported work directly with strings, and are designed to provide some
+arbitrary string behavior. While network/url based analysis are based on strings, we decided
+to include those types of tools in the nettools library instead whereas this library is strictly
+basic string operations.
 
 ## Install
 
 ```bash
-npm install @opsimathically/safejsonparse
+npm install @opsimathically/stringtools
 ```
 
 ## Building from source
@@ -19,25 +21,5 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 ## Usage
 
 [See API Reference for documentation](./docs/)
-[See unit tests for usage information](./docs/stringtools.test.ts)
 
-```typescript
-import { safejsonparse } from '@opsimathically/safejsonparse;';
-
-(async function () {
-  // some json with a potentially insecure __proto__ pollution.
-  const malicious_with_proto_json = `{
-      "__proto__": {
-        "polluted": true
-      }
-    }`;
-
-  // this try/catch will throw any regular json parse error, but additionally will throw
-  // if it detects constructor/prototype/__proto__ keys.
-  try {
-    safejsonparse(malicious_with_proto_json);
-  } catch (err) {
-    console.log('Detected invalid __proto__ key.');
-  }
-})();
-```
+[See unit tests for usage examples](./test/stringtools.test.ts)

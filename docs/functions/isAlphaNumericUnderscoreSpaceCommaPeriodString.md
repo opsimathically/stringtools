@@ -8,7 +8,7 @@
 
 > **isAlphaNumericUnderscoreSpaceCommaPeriodString**(`str`): `boolean`
 
-Defined in: [stringtools.ts:88](https://github.com/opsimathically/stringtools/blob/a71c4a4bafeb9dfe8d84210a769466b0dab5abbf/src/stringtools.ts#L88)
+Defined in: [stringtools.ts:88](https://github.com/opsimathically/stringtools/blob/19be7bae03961147b0747304375997adca8ccd4a/src/stringtools.ts#L88)
 
 check if a string contains alphanumeric, underscore, period, or commas.
 

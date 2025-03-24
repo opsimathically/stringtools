@@ -8,7 +8,7 @@
 
 > **stringToLowercaseUnderscore**(`str_to_convert`): `string`
 
-Defined in: [stringtools.ts:543](https://github.com/opsimathically/stringtools/blob/a71c4a4bafeb9dfe8d84210a769466b0dab5abbf/src/stringtools.ts#L543)
+Defined in: [stringtools.ts:543](https://github.com/opsimathically/stringtools/blob/19be7bae03961147b0747304375997adca8ccd4a/src/stringtools.ts#L543)
 
 Convert a string to lowercase with underscores
 
