@@ -8,7 +8,7 @@
 
 > **removeRepeatingCharactersFromString**(`val`): `string`
 
-Defined in: [stringtools.ts:250](https://github.com/opsimathically/stringtools/blob/8553a0fba449ff4067d02e836a6aaae8b3b70c57/src/stringtools.ts#L250)
+Defined in: [stringtools.ts:256](https://github.com/opsimathically/stringtools/blob/5cf0ffb2adf03175d5a0f33cafd31a945563ed1e/src/stringtools.ts#L256)
 
 ## Parameters
 

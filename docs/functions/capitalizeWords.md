@@ -8,7 +8,7 @@
 
 > **capitalizeWords**(`str`, `separator`): `null` \| `string`
 
-Defined in: [stringtools.ts:467](https://github.com/opsimathically/stringtools/blob/8553a0fba449ff4067d02e836a6aaae8b3b70c57/src/stringtools.ts#L467)
+Defined in: [stringtools.ts:473](https://github.com/opsimathically/stringtools/blob/5cf0ffb2adf03175d5a0f33cafd31a945563ed1e/src/stringtools.ts#L473)
 
 ## Parameters
 
