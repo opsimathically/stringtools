@@ -1,10 +1,8 @@
 # stringtools
 
-These tools have been cannibalized from a number of my internal projects and consolidated
+These tools have been cannibalized from a number of my internal projects and have been consolidated
 here. All functions exported work directly with strings, and are designed to provide some
-arbitrary string behavior. While network/url based analysis are based on strings, we decided
-to include those types of tools in the nettools library instead whereas this library is strictly
-basic string operations.
+arbitrary string behavior.
 
 ## Install
 

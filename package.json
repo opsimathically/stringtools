@@ -1,6 +1,6 @@
 {
   "name": "@opsimathically/stringtools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic foundational tools for working with and identifying strings.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
