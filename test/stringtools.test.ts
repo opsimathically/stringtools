@@ -23,8 +23,6 @@ import {
   removeFirstInstanceFromString,
   removeRepeatingCharactersFromString,
   chop,
-  lchop,
-  rtrim,
   ltrim,
   isValidUUIDString,
   isValidDoubleLengthUUIDString,
