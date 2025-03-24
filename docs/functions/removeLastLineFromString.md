@@ -8,7 +8,7 @@
 
 > **removeLastLineFromString**(`str`, `char`): `string`
 
-Defined in: [stringtools.ts:654](https://github.com/opsimathically/stringtools/blob/be6279cb127c5f8c1596ccd40cdd74eea6133fed/src/stringtools.ts#L654)
+Defined in: [stringtools.ts:698](https://github.com/opsimathically/stringtools/blob/b055bf3b17cc9708499ff46423d7e765497f45ae/src/stringtools.ts#L698)
 
 ## Parameters
 

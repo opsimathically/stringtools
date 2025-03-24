@@ -7,7 +7,6 @@
 ## Functions
 
 - [capitalizeWords](functions/capitalizeWords.md)
-- [chop](functions/chop.md)
 - [findDisallowedCharactersInString](functions/findDisallowedCharactersInString.md)
 - [isAlphabetString](functions/isAlphabetString.md)
 - [isAlphaNumericString](functions/isAlphaNumericString.md)
@@ -29,6 +28,7 @@
 - [removeFirstInstanceFromString](functions/removeFirstInstanceFromString.md)
 - [removeLastLineFromString](functions/removeLastLineFromString.md)
 - [removeRepeatingCharactersFromString](functions/removeRepeatingCharactersFromString.md)
+- [rtrim](functions/rtrim.md)
 - [sortAndDeduplicateAlphanumericStringArray](functions/sortAndDeduplicateAlphanumericStringArray.md)
 - [sortIntegerStringArray](functions/sortIntegerStringArray.md)
 - [splitOnFirstNonAsciiPrintableChar](functions/splitOnFirstNonAsciiPrintableChar.md)

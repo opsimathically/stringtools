@@ -60,7 +60,9 @@ const isAlphaNumericUnderscoreSpaceString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric, underscore, and period only.
+/**
+ * check if a string contains alphanumeric, underscore, and period only.
+ */
 const isAlphaNumericUnderscorePeriodString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_.]+$', 'g');
@@ -69,7 +71,9 @@ const isAlphaNumericUnderscorePeriodString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric, underscore, or commas.
+/**
+ * check if a string contains alphanumeric, underscore, or commas.
+ */
 const isAlphaNumericUnderscoreSpaceCommaString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_ ,]+$', 'g');
@@ -78,7 +82,9 @@ const isAlphaNumericUnderscoreSpaceCommaString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric, underscore, period, or commas.
+/**
+ * check if a string contains alphanumeric, underscore, period, or commas.
+ */
 const isAlphaNumericUnderscoreSpaceCommaPeriodString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_ ,.]+$', 'g');
@@ -87,7 +93,9 @@ const isAlphaNumericUnderscoreSpaceCommaPeriodString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric or underscore
+/**
+ * check if a string contains alphanumeric or underscore
+ */
 const isAlphaNumericUnderscoreString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_]+$', 'g');
@@ -96,7 +104,9 @@ const isAlphaNumericUnderscoreString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric, underscore, or dashes
+/**
+ * check if a string contains alphanumeric, underscore, or dashes
+ */
 const isAlphaNumericUnderscoreDashString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_-]+$', 'g');
@@ -105,7 +115,9 @@ const isAlphaNumericUnderscoreDashString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric values
+/**
+ * check if a string contains alphanumeric values
+ */
 const isAlphaNumericString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9]+$', 'g');
@@ -114,7 +126,9 @@ const isAlphaNumericString = function (str: string) {
   return false;
 };
 
-// check if a string contains only numeric values
+/**
+ * check if a string contains only numeric values
+ */
 const isNumericString = function (str: string) {
   if (!isString(str)) return false;
   const numeric_check_regexp = new RegExp('^[0-9]+$', 'g');
@@ -123,7 +137,9 @@ const isNumericString = function (str: string) {
   return false;
 };
 
-// Check if a string contains alphabet characters only.
+/**
+ * Check if a string contains alphabet characters only.
+ */
 const isAlphabetString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z]+$', 'g');
@@ -132,7 +148,9 @@ const isAlphabetString = function (str: string) {
   return false;
 };
 
-// check if a string contains only hexidecimal values
+/**
+ * check if a string contains only hexidecimal values
+ */
 const isHexString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[a-f0-9]+$', 'g');
@@ -141,7 +159,9 @@ const isHexString = function (str: string) {
   return false;
 };
 
-// searches a string for disallowed characters
+/**
+ * searches a string for disallowed characters
+ */
 const findDisallowedCharactersInString = function (
   str: string,
   allowed_chars: string[]
@@ -169,8 +189,10 @@ const findDisallowedCharactersInString = function (
 // %%% String Splitting Utilities %%%%%%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// This is used for breaking up strings along non-ascii deliniations, and is used
-// mostly for parsing unstructured or unusual text.
+/**
+ * This is used for breaking up strings along non-ascii deliniations, and is used
+ * mostly for parsing unstructured or unusual text.
+ */
 const splitOnFirstNonAsciiPrintableChar = function (str: string) {
   // check string
   if (typeof str !== 'string') return null;
@@ -191,7 +213,11 @@ const splitOnFirstNonAsciiPrintableChar = function (str: string) {
   return [str, ''];
 };
 
-// simply removes any leading whitespace from a line
+/**
+ * simply removes any leading whitespace from a line
+ * @param str
+ * @returns
+ */
 const stripLeadingWhitespaceFromString = function (str: string) {
   if (isString(str) !== true) {
     debugger;
@@ -220,8 +246,10 @@ const stripLeadingWhitespaceFromString = function (str: string) {
   }
 };
 
-// removes the first instance of a string from a string and returns
-// the modified string.  Does not use regular expressions.
+/**
+ * removes the first instance of a string from a string and returns
+ * the modified string.  Does not use regular expressions.
+ */
 const removeFirstInstanceFromString = function (str: string, search: string) {
   if (isString(str) !== true) {
     debugger;
@@ -251,8 +279,12 @@ const removeFirstInstanceFromString = function (str: string, search: string) {
   return mod_str;
 };
 
-// This will examine a string and remove any repeating characters.  This is mostly
-// used for analyzing and parsing unstructured text.  Does not use regular expressions.
+/**
+ * This will examine a string and remove any repeating characters.  This is mostly
+ * used for analyzing and parsing unstructured text.  Does not use regular expressions.
+ * @param val
+ * @returns
+ */
 const removeRepeatingCharactersFromString = function (val: string) {
   if (isString(val) !== true) {
     debugger;
@@ -274,8 +306,10 @@ const removeRepeatingCharactersFromString = function (val: string) {
   return new_string;
 };
 
-// simply remove the last character in a string
-const chop = function (str: string) {
+/**
+ * remove the last character in a string
+ */
+const rtrim = function (str: string) {
   if (isString(str) !== true) {
     debugger;
     assert.fail(
@@ -285,12 +319,16 @@ const chop = function (str: string) {
   return str.slice(0, -1);
 };
 
-// left trim a character
+/**
+ * remove the first character in a string
+ */
 const ltrim = function (str: string) {
   return str.slice(1);
 };
 
-// check if value is a uuid
+/**
+ * check if value is a uuid
+ */
 const isValidUUIDString = function (uuid_val: string) {
   if (!isString(uuid_val)) return false;
   if (uuid_val.length !== 36) return false;
@@ -306,7 +344,9 @@ const isValidUUIDString = function (uuid_val: string) {
   return true;
 };
 
-// check for valid double length uuid
+/**
+ * check if value is a double length uuid
+ */
 const isValidDoubleLengthUUIDString = function (
   double_length_uuid_val: string
 ) {
@@ -324,7 +364,9 @@ const isValidDoubleLengthUUIDString = function (
   return true;
 };
 
-// sort integer string array (parses to in, then sorts by string)
+/**
+ * sort integer string array (parses to in, then sorts by string)
+ */
 const sortIntegerStringArray = function (int_string_array: string[]) {
   // ensure input is an array
   if (Array.isArray(int_string_array) === false) return null;
@@ -354,8 +396,6 @@ const sortIntegerStringArray = function (int_string_array: string[]) {
   return sorted_results;
 };
 
-// Take an array of strings, remove any non-alphanumeric characters, sort
-// the strings alphabetically, and remove any duplicates.
 /*
     // Example usage:
     const inputArray = ["apple!", "Banana", "orange", "apple", "che  rry", "banana", "99dd"];
@@ -363,6 +403,10 @@ const sortIntegerStringArray = function (int_string_array: string[]) {
 
     output = ["99dd","apple","banana","cherry","orange"]
 */
+/**
+ * Take an array of strings, remove any non-alphanumeric characters, sort
+ * the strings alphabetically, and remove any duplicates.
+ */
 const sortAndDeduplicateAlphanumericStringArray = function (
   str_array: string[]
 ) {
@@ -734,8 +778,8 @@ const splitStringByLength = function (
     new_string += string[idx] + '';
 
     // break string where necessary
-    if (length_counter === length) {
-      new_string += replacement;
+    if (length_counter === length - 1) {
+      if (string.length - idx > length) new_string += replacement;
       length_counter = 0;
     } else {
       length_counter++;
@@ -764,7 +808,7 @@ export {
   stripLeadingWhitespaceFromString,
   removeFirstInstanceFromString,
   removeRepeatingCharactersFromString,
-  chop,
+  rtrim,
   ltrim,
   isValidUUIDString,
   isValidDoubleLengthUUIDString,

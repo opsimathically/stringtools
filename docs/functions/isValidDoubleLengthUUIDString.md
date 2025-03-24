@@ -8,7 +8,9 @@
 
 > **isValidDoubleLengthUUIDString**(`double_length_uuid_val`): `boolean`
 
-Defined in: [stringtools.ts:310](https://github.com/opsimathically/stringtools/blob/be6279cb127c5f8c1596ccd40cdd74eea6133fed/src/stringtools.ts#L310)
+Defined in: [stringtools.ts:350](https://github.com/opsimathically/stringtools/blob/b055bf3b17cc9708499ff46423d7e765497f45ae/src/stringtools.ts#L350)
+
+check if value is a double length uuid
 
 ## Parameters
 
