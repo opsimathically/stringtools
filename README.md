@@ -23,3 +23,44 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 [See API Reference for documentation](https://github.com/opsimathically/stringtools/blob/main/docs/)
 
 [See unit tests for usage examples](https://github.com/opsimathically/stringtools/blob/main/test/stringtools.test.ts)
+
+### APIs
+
+- isString
+- isAsciiPrintableString
+- isAsciiPrintableSpaceAlphanumericSymbolsString
+- isAlphaNumericUnderscoreSpaceString
+- isAlphaNumericUnderscorePeriodString
+- isAlphaNumericUnderscoreSpaceCommaString
+- isAlphaNumericUnderscoreSpaceCommaPeriodString
+- isAlphaNumericUnderscoreString
+- isAlphaNumericUnderscoreDashString
+- isAlphaNumericString
+- isNumericString
+- isAlphabetString
+- isHexString
+- findDisallowedCharactersInString
+- splitOnFirstNonAsciiPrintableChar
+- stripLeadingWhitespaceFromString
+- removeFirstInstanceFromString
+- removeRepeatingCharactersFromString
+- rtrim
+- ltrim
+- isValidUUIDString
+- isValidDoubleLengthUUIDString
+- sortIntegerStringArray
+- sortAndDeduplicateAlphanumericStringArray
+- tokenizeString
+- capitalizeWords
+- stringToLowercaseUnderscore
+- stringToNormalizedLowercaseNoSpecialChars
+- stringToHexArray
+- stringEndsWith
+- stringEndsWithItemInArray
+- stringStartsWith
+- stringStartsWithItemInArray
+- stringRemoveNewlines
+- removeLastLineFromString
+- removeCommonFrontPartsFromStringArray
+- stringArrayToString
+- splitStringByLength

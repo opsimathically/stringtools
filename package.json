@@ -1,7 +1,7 @@
 {
   "name": "@opsimathically/stringtools",
   "version": "1.0.0",
-  "description": "Basic foundational tools for working with and identifying string content.",
+  "description": "Basic foundational tools for working with and identifying strings.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
