@@ -8,7 +8,7 @@
 
 > **isAlphaNumericString**(`str`): `boolean`
 
-Defined in: [stringtools.ts:121](https://github.com/opsimathically/stringtools/blob/5714d320fcdf7327680edd07bd6d383b6db26812/src/stringtools.ts#L121)
+Defined in: [stringtools.ts:121](https://github.com/opsimathically/stringtools/blob/a71c4a4bafeb9dfe8d84210a769466b0dab5abbf/src/stringtools.ts#L121)
 
 check if a string contains alphanumeric values
 

@@ -8,7 +8,7 @@
 
 > **stringEndsWithItemInArray**(`str`, `array_of_end_items`): `boolean`
 
-Defined in: [stringtools.ts:664](https://github.com/opsimathically/stringtools/blob/5714d320fcdf7327680edd07bd6d383b6db26812/src/stringtools.ts#L664)
+Defined in: [stringtools.ts:664](https://github.com/opsimathically/stringtools/blob/a71c4a4bafeb9dfe8d84210a769466b0dab5abbf/src/stringtools.ts#L664)
 
 check if string ends with item in array
 

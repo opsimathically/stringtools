@@ -19,6 +19,7 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 ## Usage
 
 [See API Reference for documentation](./docs/)
+[See unit tests for usage information](./docs/stringtools.test.ts)
 
 ```typescript
 import { safejsonparse } from '@opsimathically/safejsonparse;';
