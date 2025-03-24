@@ -1,0 +1,37 @@
+{
+  "name": "@opsimathically/stringtools",
+  "version": "1.0.0",
+  "description": "Basic foundational tools for working with and identifying string content.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "ts-node -r tsconfig-paths/register test/stringtools.test.ts",
+    "docs": "typedoc"
+  },
+  "keywords": [
+    "string",
+    "string-types",
+    "string-content"
+  ],
+  "homepage": "https://github.com/opsimathically/stringtools",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/wtfnode": "^0.7.3",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.14.0",
+    "prettier": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.3.6",
+    "typedoc": "^0.28.1",
+    "typedoc-plugin-markdown": "^4.6.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0",
+    "wtfnode": "^0.10.0"
+  },
+  "author": "Jason Medeiros",
+  "license": "MIT"
+}

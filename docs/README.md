@@ -1,0 +1,51 @@
+**@opsimathically/stringtools**
+
+***
+
+# @opsimathically/stringtools
+
+## Variables
+
+- [lchop](variables/lchop.md)
+- [rtrim](variables/rtrim.md)
+
+## Functions
+
+- [capitalizeWords](functions/capitalizeWords.md)
+- [chop](functions/chop.md)
+- [findDisallowedCharactersInString](functions/findDisallowedCharactersInString.md)
+- [isAlphabetString](functions/isAlphabetString.md)
+- [isAlphaNumericString](functions/isAlphaNumericString.md)
+- [isAlphaNumericUnderscoreDashString](functions/isAlphaNumericUnderscoreDashString.md)
+- [isAlphaNumericUnderscorePeriodString](functions/isAlphaNumericUnderscorePeriodString.md)
+- [isAlphaNumericUnderscoreSpaceCommaPeriodString](functions/isAlphaNumericUnderscoreSpaceCommaPeriodString.md)
+- [isAlphaNumericUnderscoreSpaceCommaString](functions/isAlphaNumericUnderscoreSpaceCommaString.md)
+- [isAlphaNumericUnderscoreSpaceString](functions/isAlphaNumericUnderscoreSpaceString.md)
+- [isAlphaNumericUnderscoreString](functions/isAlphaNumericUnderscoreString.md)
+- [isAsciiPrintableSpaceAlphanumericSymbolsString](functions/isAsciiPrintableSpaceAlphanumericSymbolsString.md)
+- [isAsciiPrintableString](functions/isAsciiPrintableString.md)
+- [isHexString](functions/isHexString.md)
+- [isNumericString](functions/isNumericString.md)
+- [isString](functions/isString.md)
+- [isValidDoubleLengthUUIDString](functions/isValidDoubleLengthUUIDString.md)
+- [isValidUUIDString](functions/isValidUUIDString.md)
+- [ltrim](functions/ltrim.md)
+- [removeCommonFrontPartsFromStringArray](functions/removeCommonFrontPartsFromStringArray.md)
+- [removeFirstInstanceFromString](functions/removeFirstInstanceFromString.md)
+- [removeLastLineFromString](functions/removeLastLineFromString.md)
+- [removeRepeatingCharactersFromString](functions/removeRepeatingCharactersFromString.md)
+- [sortAndDeduplicateAlphanumericStringArray](functions/sortAndDeduplicateAlphanumericStringArray.md)
+- [sortIntegerStringArray](functions/sortIntegerStringArray.md)
+- [splitOnFirstNonAsciiPrintableChar](functions/splitOnFirstNonAsciiPrintableChar.md)
+- [splitStringByLength](functions/splitStringByLength.md)
+- [stringArrayToString](functions/stringArrayToString.md)
+- [stringEndsWith](functions/stringEndsWith.md)
+- [stringEndsWithItemInArray](functions/stringEndsWithItemInArray.md)
+- [stringRemoveNewlines](functions/stringRemoveNewlines.md)
+- [stringStartsWith](functions/stringStartsWith.md)
+- [stringStartsWithItemInArray](functions/stringStartsWithItemInArray.md)
+- [stringToHexArray](functions/stringToHexArray.md)
+- [stringToLowercaseUnderscore](functions/stringToLowercaseUnderscore.md)
+- [stringToNormalizedLowercaseNoSpecialChars](functions/stringToNormalizedLowercaseNoSpecialChars.md)
+- [stripLeadingWhitespaceFromString](functions/stripLeadingWhitespaceFromString.md)
+- [tokenizeString](functions/tokenizeString.md)
