@@ -24,7 +24,7 @@
 - [isString](functions/isString.md)
 - [isValidDoubleLengthUUIDString](functions/isValidDoubleLengthUUIDString.md)
 - [isValidUUIDString](functions/isValidUUIDString.md)
-- [lchop](functions/lchop.md)
+- [ltrim](functions/ltrim.md)
 - [removeCommonFrontPartsFromStringArray](functions/removeCommonFrontPartsFromStringArray.md)
 - [removeFirstInstanceFromString](functions/removeFirstInstanceFromString.md)
 - [removeLastLineFromString](functions/removeLastLineFromString.md)
@@ -44,15 +44,3 @@
 - [stringToNormalizedLowercaseNoSpecialChars](functions/stringToNormalizedLowercaseNoSpecialChars.md)
 - [stripLeadingWhitespaceFromString](functions/stripLeadingWhitespaceFromString.md)
 - [tokenizeString](functions/tokenizeString.md)
-
-## References
-
-### ltrim
-
-Renames and re-exports [lchop](functions/lchop.md)
-
-***
-
-### rtrim
-
-Renames and re-exports [chop](functions/chop.md)

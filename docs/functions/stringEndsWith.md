@@ -8,7 +8,7 @@
 
 > **stringEndsWith**(`str`, `ends_with`): `boolean`
 
-Defined in: [stringtools.ts:586](https://github.com/opsimathically/stringtools/blob/faa17bac9cdf684aed1d7d7ffad0c9409cb58c8c/src/stringtools.ts#L586)
+Defined in: [stringtools.ts:586](https://github.com/opsimathically/stringtools/blob/be6279cb127c5f8c1596ccd40cdd74eea6133fed/src/stringtools.ts#L586)
 
 ## Parameters
 
