@@ -454,6 +454,9 @@ output:
 ["cow9","hello","moo"]
 
 */
+/**
+ * Take a string, tokenize it, and return an array of strings.  Options include sorting, deduplicating, and converting to lowercase.
+ */
 const tokenizeString = function (params: {
   input_string: string;
   options?: {
@@ -509,7 +512,9 @@ const tokenizeString = function (params: {
   return string_array;
 };
 
-// capitalizes words in a string
+/**
+ * capitalizes words in a string
+ */
 const capitalizeWords = function (str: string, separator: string = ' ') {
   if (!isString(str)) {
     assert.fail(
@@ -532,7 +537,9 @@ const capitalizeWords = function (str: string, separator: string = ' ') {
   return capitalized_string;
 };
 
-// Convert a string to lowercase with underscores
+/**
+ * Convert a string to lowercase with underscores
+ */
 const stringToLowercaseUnderscore = function (str_to_convert: string) {
   if (!isString(str_to_convert)) {
     assert.fail(
@@ -608,7 +615,9 @@ const stringToNormalizedLowercaseNoSpecialChars = function (params: {
   return final_string.toLowerCase();
 };
 
-// convert a string to an array of hex strings (each entry is 0x00-0xff)
+/**
+ * convert a string to an array of hex strings (each entry is 0x00-0xff)
+ */
 const stringToHexArray = function (input_string: string) {
   if (!isString(input_string)) {
     assert.fail(
@@ -626,7 +635,9 @@ const stringToHexArray = function (input_string: string) {
 // %%% String Ends/Starts With %%%%%%%%%%%%%%%%%%%%%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// ends with
+/**
+ * check if a string ends with a specific string
+ */
 const stringEndsWith = function (str: string, ends_with: string) {
   if (!isString(str)) {
     assert.fail(
@@ -647,7 +658,9 @@ const stringEndsWith = function (str: string, ends_with: string) {
   return false;
 };
 
-// check if string ends with item in array
+/**
+ * check if string ends with item in array
+ */
 const stringEndsWithItemInArray = function (
   str: string,
   array_of_end_items: string[]
@@ -658,7 +671,9 @@ const stringEndsWithItemInArray = function (
   return false;
 };
 
-// starts with
+/**
+ * check if a string starts with a specific string
+ */
 const stringStartsWith = function (str: string, starts_with: string) {
   // check string
   if (str.indexOf(starts_with) === 0) return true;
@@ -667,7 +682,9 @@ const stringStartsWith = function (str: string, starts_with: string) {
   return false;
 };
 
-// check if string starts with item in array
+/**
+ * check if string starts with item in array
+ */
 const stringStartsWithItemInArray = function (
   str: string,
   array_of_start_items: string[]
@@ -683,7 +700,9 @@ const stringStartsWithItemInArray = function (
   return false;
 };
 
-// remove newlines from string
+/**
+ * remove newlines from string
+ */
 const stringRemoveNewlines = function (str: string) {
   if (!isString(str)) {
     assert.fail(
@@ -694,7 +713,9 @@ const stringRemoveNewlines = function (str: string) {
   return str;
 };
 
-// remove last line from string
+/**
+ * remove last line from string
+ */
 const removeLastLineFromString = function (str: string, char: string = '\n') {
   if (!isString(str)) {
     assert.fail(
@@ -711,8 +732,7 @@ const removeLastLineFromString = function (str: string, char: string = '\n') {
 };
 
 /*
-This utility is used for removing the "front part" from matching strings.
-
+Example:
 // strings with common front part of "hello"
 let strings = ["hellothere", "hellowhere"];
 
@@ -721,6 +741,9 @@ let modified_strings = custom_utils.removeCommonFrontPartsFromStringArray(string
 
 // Output: [ 'there', 'where' ]
 */
+/**
+ * This utility is used for removing the "front part" from matching strings.
+ */
 const removeCommonFrontPartsFromStringArray = function (strings: string[]) {
   if (strings.length === 0) return [];
 
@@ -744,7 +767,9 @@ const removeCommonFrontPartsFromStringArray = function (strings: string[]) {
   return strings.map((str) => str.slice(shortest_string.length));
 };
 
-// simply returns a joined representation of a string array.
+/**
+ * simply returns a joined representation of a string array.
+ */
 const stringArrayToString = function (
   string_array: string[],
   seperator: string
@@ -757,7 +782,9 @@ const stringArrayToString = function (
   return string_array.join(seperator);
 };
 
-// split a string by length by inserting a replacement character
+/**
+ * split a string by length by inserting a replacement character
+ */
 const splitStringByLength = function (
   string: string,
   length: number,

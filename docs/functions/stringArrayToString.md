@@ -8,7 +8,9 @@
 
 > **stringArrayToString**(`string_array`, `seperator`): `null` \| `string`
 
-Defined in: [stringtools.ts:748](https://github.com/opsimathically/stringtools/blob/b055bf3b17cc9708499ff46423d7e765497f45ae/src/stringtools.ts#L748)
+Defined in: [stringtools.ts:773](https://github.com/opsimathically/stringtools/blob/5714d320fcdf7327680edd07bd6d383b6db26812/src/stringtools.ts#L773)
+
+simply returns a joined representation of a string array.
 
 ## Parameters
 

@@ -8,7 +8,9 @@
 
 > **stringToHexArray**(`input_string`): `string`[]
 
-Defined in: [stringtools.ts:612](https://github.com/opsimathically/stringtools/blob/b055bf3b17cc9708499ff46423d7e765497f45ae/src/stringtools.ts#L612)
+Defined in: [stringtools.ts:621](https://github.com/opsimathically/stringtools/blob/5714d320fcdf7327680edd07bd6d383b6db26812/src/stringtools.ts#L621)
+
+convert a string to an array of hex strings (each entry is 0x00-0xff)
 
 ## Parameters
 

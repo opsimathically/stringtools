@@ -8,7 +8,7 @@
 
 > **sortAndDeduplicateAlphanumericStringArray**(`str_array`): `null` \| `string`[]
 
-Defined in: [stringtools.ts:410](https://github.com/opsimathically/stringtools/blob/b055bf3b17cc9708499ff46423d7e765497f45ae/src/stringtools.ts#L410)
+Defined in: [stringtools.ts:410](https://github.com/opsimathically/stringtools/blob/5714d320fcdf7327680edd07bd6d383b6db26812/src/stringtools.ts#L410)
 
 Take an array of strings, remove any non-alphanumeric characters, sort
 the strings alphabetically, and remove any duplicates.
