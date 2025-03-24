@@ -18,6 +18,8 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 
 ## Usage
 
+[See API Reference for documentation](./docs/)
+
 ```typescript
 import { safejsonparse } from '@opsimathically/safejsonparse;';
 
