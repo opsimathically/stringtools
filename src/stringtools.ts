@@ -284,15 +284,11 @@ const chop = function (str: string) {
   }
   return str.slice(0, -1);
 };
-// string chop aliases
-const rtrim = chop;
 
 // left trim a character
 const ltrim = function (str: string) {
   return str.slice(1);
 };
-// left trim aliases
-const lchop = ltrim;
 
 // check if value is a uuid
 const isValidUUIDString = function (uuid_val: string) {
@@ -769,9 +765,9 @@ export {
   removeFirstInstanceFromString,
   removeRepeatingCharactersFromString,
   chop,
-  lchop,
-  rtrim,
+  chop as rtrim,
   ltrim,
+  ltrim as lchop,
   isValidUUIDString,
   isValidDoubleLengthUUIDString,
   sortIntegerStringArray,
