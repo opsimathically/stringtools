@@ -20,6 +20,6 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 
 ## Usage
 
-[See API Reference for documentation](./docs/)
+[See API Reference for documentation](https://github.com/opsimathically/stringtools/blob/main/docs/)
 
-[See unit tests for usage examples](./test/stringtools.test.ts)
+[See unit tests for usage examples](https://github.com/opsimathically/stringtools/blob/main/test/stringtools.test.ts)
