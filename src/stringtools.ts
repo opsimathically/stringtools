@@ -27,7 +27,9 @@ const isString = function (str: any) {
   return false;
 };
 
-// simply checks if a buffer is all ascii characters
+/**
+ * Checks if a string is an ASCII printable string.
+ */
 const isAsciiPrintableString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[\x09\x0a\x0d\x20-\x7e]+$', 'g');
@@ -36,7 +38,9 @@ const isAsciiPrintableString = function (str: string) {
   return false;
 };
 
-// check for ascii printable alphanumeric symbols only
+/**
+ * check for ascii printable alphanumeric symbols only
+ */
 const isAsciiPrintableSpaceAlphanumericSymbolsString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[\x20-\x7e]+$', 'g');
@@ -45,7 +49,9 @@ const isAsciiPrintableSpaceAlphanumericSymbolsString = function (str: string) {
   return false;
 };
 
-// check if a string contains alphanumeric or underscore
+/**
+ * check if a string contains alphanumeric or underscore
+ */
 const isAlphaNumericUnderscoreSpaceString = function (str: string) {
   if (!isString(str)) return false;
   const ascii_check_regexp = new RegExp('^[A-Za-z0-9_ ]+$', 'g');
